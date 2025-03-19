@@ -1,0 +1,181 @@
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Portfolio&lt;/title&gt;
+    &lt;style&gt;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #84a6e9;
+        }
+        header {
+            background-color: #941919;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative; /* Add this */
+        }
+        .header-content h1 {
+            font-size: 2.5rem;
+        }
+        /* Add styles for the round profile picture */
+        .profile-picture {
+            width: 100px; /* Adjust the size as needed */
+            height: 100px;
+            border-radius: 75%; /* Create a circular shape */
+            object-fit: cover; /* To ensure the image fills the circular area */
+
+            position: absolute; /* Add this */
+            top: 75px; /* Adjust top position as needed */
+            left: 75px; /* Adjust left position as needed */
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .section-content {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 1rem;
+
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+        }
+        .download-button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            align-self: center;
+        }
+        .download-button:hover {
+            background-color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header&gt;
+        &lt;div class=&quot;header-content&quot;&gt;
+            &lt;!-- Add your profile picture here --&gt;
+           &lt;!-- &lt;img src=&quot;passport photo.jpg&quot; alt=&quot;Your Profile Picture&quot; class=&quot;profile-picture&quot;&gt; --&gt;
+            &lt;h1&gt;RANI S&lt;/h1&gt;
+            &lt;p&gt;Am  a student&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/header&gt;
+    &lt;nav&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#education&quot;&gt;Education&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#skills&quot;&gt;Skills&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#projects&quot;&gt;Projects&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#resume&quot;&gt;Resume&lt;/a&gt;&lt;/li&gt;
+           
+        &lt;/ul&gt;
+    &lt;/nav&gt;
+    &lt;section id=&quot;about&quot;&gt;
+        &lt;div class=&quot;section-content&quot;&gt;
+            &lt;h2&gt;About Me&lt;/h2&gt;
+            &lt;p&gt;I&#39;m a &lt;b&gt;web development&lt;/b&gt; As a second-year BCA student studying at Chevalier
+T. Thomas Elizabeth College for Women, I have developed a strong skill set in programming
+languages such as C++, C, Java, and Python.&lt;/p&gt;
+
+        &lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section id=&quot;education&quot;&gt;
+        &lt;div class=&quot;section-content&quot;&gt;
+            &lt;h2&gt;Education&lt;/h2&gt;
+            &lt;p&gt;Madras University&lt;/p&gt;
+            
+            
+        &lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section id=&quot;skills&quot;&gt;
+        &lt;div class=&quot;section-content&quot;&gt;
+            &lt;h2&gt;Skills&lt;/h2&gt;
+            &lt;ul&gt;
+                &lt;li&gt;C&lt;/li&gt;
+                &lt;li&gt;C++&lt;/li&gt;
+                &lt;li&gt;Python&lt;/li&gt;
+                &lt;li&gt;HTML&lt;/li&gt;
+          
+    
+                &lt;li&gt;CSS&lt;/li&gt;
+                
+                &lt;li&gt;Java script&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;section id=&quot;projects&quot;&gt;
+        &lt;div class=&quot;section-content&quot;&gt;
+            &lt;h2&gt;Projects&lt;/h2&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Digital Portfolio&lt;/a&gt;&lt;/li&gt;
+                
+          
+                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;College Portal&lt;/a&gt;&lt;/li&gt; 
+                &lt;!-- Add more project links here --&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section id=&quot;resume&quot;&gt;
+    
+        &lt;div class=&quot;section-content&quot;&gt;
+            &lt;center&gt;
+            &lt;h2&gt;Resume&lt;/h2&gt;
+            &lt;a href=&quot;file.pdf&quot; target=&quot;_blank&quot; class=&quot;download-button&quot;&gt;Download CV&lt;/a&gt;
+        &lt;/center&gt;
+        &lt;/div&gt;
+        
+    &lt;/section&gt;
+    &lt;footer&gt;
+        &lt;p&gt;&amp;copy; 2025 RANI S&lt;/p&gt;
+    &lt;/footer&gt;
+    &lt;script&gt;
+        // Smooth scrolling to section when clicking on navigation links
+
+        document.querySelectorAll(&#39;a[href^=&quot;#&quot;]&#39;).forEach(anchor =&gt; {
+            anchor.addEventListener(&#39;click&#39;, function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute(&#39;href&#39;).substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: &#39;smooth&#39;
+                    });
+                }
+            });
+        });
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
